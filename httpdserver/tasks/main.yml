@@ -9,7 +9,7 @@
 
  - name: "copy code from GitHub"
    get_url:
-       url: https://github.com/kirankumardevarasetty/Challange/blob/main/index.php
+       url: https://raw.githubusercontent.com/kirankumardevarasetty/Challange/main/index.php
        dest: "/var/www/html/index.php"
 
  - name: "Start httpd services"
