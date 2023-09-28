@@ -1,0 +1,1570 @@
+Catch up call with  Andrew Mcquiggans on Test Documents.-20230926_110617-Meeting Recording
+
+0:02
+I'd use this which is a handover.
+
+0:07
+Great, that's good.
+
+0:09
+Which is a handover sort of summary of links and yeah as I said and the the expectation is that we we we store information in confluence for some fairly obvious reasons you know which which I'm sure you're familiar with.
+
+0:26
+So we can yeah cross reference things very, very well and it's it, it it it tends to be a more effective than having a lot of individual documents that are then indexed in a central repository.
+
+0:42
+So yeah, so we have got that's what we've got is is mostly confluence pages now one of them this one here.
+
+0:52
+So let me open up copy of this.
+
+0:57
+So this is where I've gathered lots of references to in the early stages I worked with within and we we looked through about what the bank had as its enterprise architecture standards policies, it's design standards strategies.
+
+1:22
+And in terms of the logistics of perhaps giving you access to these.
+
+1:29
+You know what what we can see is here most of these are, so there'll be some internal links.
+
+1:34
+So there's right.
+
+1:36
+I can go down to the software development policy but then if I click on the software development policy, right that's that's then pulling pulling up which eventually is gonna come through that's then gonna pull up a PDF for software development.
+
+1:55
+Right now I probably haven't got time to sort of give all of those to you to to chase down all of those links.
+
+2:07
+So if I I don't know why that isn't responding there we go responding to it.
+
+2:13
+What I can do see is I can say sorry not that and yes please yeah if you have any troubles like please give the link to the MM said he will have some bandwidth and he will export the documents and share to us if the time constraints not following you to do that any important like confluence link you wanna share you can share with MM and help us to get those documents after he reviewed it whether he can be able to share that right yes that that's that that would that would be really good actually.
+
+2:48
+So I they they do all follow in off that.
+
+2:53
+So anyway I've done it earlier so so some some things like this like these are exported PDFs, right.
+
+2:59
+Yeah so so obviously you can be you can be sent this PDF, yeah, but not many.
+
+3:04
+The links that would work for me because I'm coming from inside the bank wouldn't work for you.
+
+3:09
+Yeah.
+
+3:10
+And because I've heavily utilized referencing existing information in the bank to make my case rather than creating a whole load of new information, yeah, that's that's why we and we need to know where we where would we stop in the dependency graph effectively.
+
+3:26
+Yeah.
+
+3:27
+To give you that information if if I bring myself back-to-back to this.
+
+3:33
+So we did actually, I did actually pull up the what was it?
+
+3:40
+Ohh, it's here.
+
+3:41
+Yeah.
+
+3:41
+So, so there are some very good software development policies here.
+
+3:46
+Yeah.
+
+3:46
+And yeah so and how soon, how how's, how quickly these policies are getting updated in a quarterly basis or fortnight basis or every six months or these policies getting updated, are these policies are getting really reviewed.
+
+4:00
+Any changes our new policies are incorporated and how we are ensuring there's the team members or the reminding teams are following the policies.
+
+4:08
+Is there any centralized document or any checklist stating that all the people are following policies or people who are developing code or deviating these kind of policies?
+
+4:18
+Are there any feedback mechanism for these policies.
+
+4:21
+So, so this is a really good question right?
+
+4:24
+And just for the sake of time I'm I'm gonna you know try and cut to the to the chase on on these sorts of things.
+
+4:30
+So I I early days as soon as I found these I thought this is absolutely fantastic because the policies themselves are very good but they are almost entirely not complied with and there is no reliable register of noncompliance.
+
+4:49
+The compliance is so non is so prolific the non so the noncompliance is so prolific.
+
+4:55
+It's just you know you you it would be simpler to keep track of those things that are complied with.
+
+5:02
+Yeah right.
+
+5:03
+Now to go on to the, the answering the last element of what your question was there, which is you know how often are they reviewed and things like that.
+
+5:12
+So I'm I was so sad to find that when there was some work done that acknowledged where at in in a in a in a quite architecturally led way that there was a high degree of noncompliance and this was partly triggered by an internal audit that that found this.
+
+5:36
+You know one would hope I don't think it found all the noncompliance but it just in in a it at least found the tip of the iceberg and said there's a lot of noncompliance.
+
+5:45
+I'm I was so sad that the first thing that actually the the main action that was taken out of that was to review the policy as if the policy was the reason for the noncompliance.
+
+5:59
+So so much of what's done in the bank is entirely backwards right.
+
+6:04
+It's the policy is absolutely fine right.
+
+6:08
+The reason for noncompliance is not the way the policy is framed and yet the the action that was taken in response to audit saying that the as people go off and do unproductive work that look kind of looks OK.
+
+6:23
+So a lot of things that are done in response to what what I think it should be readily apparent shortcomings in the way the bank operates is actually to go and produce another PowerPoint or document or to review a standard.
+
+6:43
+And that's that's that's kind of like I think the the actual dealing with the problem is is so difficult and requires so much such a broad an alignment of broad strategically supported changes in the bank that that nobody is given sufficient empowerment and support and funding and time to actually engage with them.
+
+7:09
+So.
+
+7:09
+So they gravitate towards, even subconsciously towards doing things that they have a chance of appearing to make some success with.
+
+7:20
+So this, this software policy was reviewed.
+
+7:22
+So it had been in place for quite a number of years by the time I found it.
+
+7:29
+And then sometime after I'd been here, after that internal audit, there was an exercise to review it and that went that occupied people from architecture and and testing and and development and all that sort of stuff.
+
+7:43
+But actually we're no more compliant at all.
+
+7:48
+Yeah.
+
+7:49
+Okay.
+
+7:51
+And then if I go back and perhaps answer some of the other sorts of things.
+
+7:54
+So there's.
+
+7:57
+So think there's things here like source control standards, right.
+
+8:00
+Yeah.
+
+8:00
+Again.
+
+8:01
+Yeah.
+
+8:01
+You may.
+
+8:01
+You really would expect there would be great source control standards.
+
+8:04
+And I've put some extracts in in here, you know Git repositories on the banks as your DevOps implementation must be used for all source control purposes, right.
+
+8:13
+Yeah.
+
+8:13
+And yeah.
+
+8:14
+This is, this is, this is.
+
+8:16
+Absolutely.
+
+8:17
+Hygiene factor, right?
+
+8:19
+Yeah.
+
+8:21
+And I would hope then that whenever we in testing ask right, OK, can we have site of these things, we don't want to be able to change them, right?
+
+8:30
+We want to know when when the change has been checked in for instance.
+
+8:35
+Also when when a new version, say after pick a system like T24 where the bank will produce custom services which are triggered or or interacted with over an MQQ passing a proprietary Teminos OFS format message in into T24 over the MQQ.
+
+9:03
+And then there'll be one or more output queues that will either say this message was processed successfully or or it might also generate some outbound payment messages.
+
+9:17
+Yeah, right.
+
+9:18
+I I I would expect that each time there's an incremental change that the bank makes to to T20 four that would be reflected in the source control system by a check in and that you'd you'd be able to see what what effectively the the service definitions were changing and which versions of the of the ISO MX messages are now being handled by this input queue and you know and what what the outputs are.
+
+9:52
+But we're not given any sight of that.
+
+9:53
+I'm also not sure that they're actually stored in Azure right.
+
+9:59
+You know, I was hoping to be able to get, you know, all a sight of all of that in terms of observability as well, you know.
+
+10:06
+And so even though it's absolutely mandatory and there are supposed to be noncompliance is supposed to be something that has quite significant sanctions against people.
+
+10:16
+If especially, you know, if if they declare that they're noncompliant, that's fine.
+
+10:21
+But if you just going along kind of being noncompliant and knowing it and not doing anything about it, you know, it's quite a serious matter.
+
+10:28
+But yes, nothing's, nothing seems to happen about it.
+
+10:31
+So we can go and look at the source control standards which will be another another document.
+
+10:40
+But looking at that and looking at the fine detail of it and trying to improve on it is to my mind, I'm sorry that's that's open but my handing back my assets document something else, right.
+
+10:54
+Source control standards, right.
+
+10:56
+So here we are, you know and there's document control over it and all of that sort of stuff, but and it's been last reviewed in was it 2021.
+
+11:10
+Yeah, we've got things about branching and merging, right.
+
+11:14
+So but you go and ask for any of these markets and banking systems that are nominally commercial off the shelf systems but in fact are so customized as to be virtually unrecognizable to the vendors main mainstream product.
+
+11:34
+And you go and ask well what's your branching and merging strategy for this And as far as I'm aware nothing ever comes back, right.
+
+11:44
+And I think that the argument if I try and steal man Fss's case is well we just have to work the way each of these different systems vendors allow you to work, right.
+
+11:55
+We can't follow bank standards and I think in their minds they see themselves as exempt from following bank standards.
+
+12:03
+But but to me, these things all need to happen.
+
+12:06
+And each of these vendors, when I go and look on their websites, they, they follow normal industry standard disciplines, right?
+
+12:15
+They've got big customer bases around the world, right?
+
+12:17
+So they're not, they're not sitting there casually putting new releases out without fully documenting the behavior and, you know, and giving, you know, programmatically analyzable and consumable service contracts and things like that.
+
+12:36
+No, they've got, you know, open API definitions, they've got Xsds.
+
+12:43
+They've got, you know, everything you would expect to have and full documentation, all version controlled.
+
+12:54
+And then that's that's that.
+
+12:54
+Would there be another classic While I'm on the subject of T20 four, I asked.
+
+12:58
+Well, what version of each?
+
+13:04
+How, how would I find in a test environment as you've put different versions released into that test environment?
+
+13:14
+Of the upgrades that are being made to T24, how would I find for each service that it provides, what version, what the version is of that service?
+
+13:27
+Do you use semantic versioning?
+
+13:28
+You know how, How would I differentiate between a breaking and a non breaking change?
+
+13:34
+And these were conversations that had almost no recognition at all from from FSS in terms of concepts.
+
+13:41
+I say we ohh, it doesn't work like that, right?
+
+13:45
+And yet I go and look on Teminos's T20 four site and they'll give you exactly all of that information.
+
+13:51
+So, so, so the things I would think to focus on are not refinement of standards that exist only in the abstract but are not applied in the Bank of England.
+
+14:03
+If I could give advices or recommendation is please stay away from trying to make sure that that's OK because that's just dead work, right?
+
+14:12
+It really won't make any difference.
+
+14:13
+It has no traction right?
+
+14:15
+The thing, the things that that that can have traction and then can improve everybody lives are well, if supposing we just accept that the starting point is that this system say T24, but it's true of the other systems as well, that over time each iteration that's put into a bank's test environment.
+
+14:38
+It needs to be evident to the people who are doing the testing and the people who are doing the deploying and the people who are doing the development of the changes.
+
+14:51
+Exactly what version of each element that change is so that there's an unambiguous reference to it.
+
+14:59
+So that we could revert to it.
+
+15:00
+So that we could do a dif between 2 minor versions right of of an individual service.
+
+15:08
+So however that is best achieved in the context of T20 four, that would be that would be the place where advice from experienced people like yourselves would be able to help FSS, right, Rather than looking at the standard itself, which is tends to be something that you would find recognizable as good industry standard.
+
+15:30
+Yeah.
+
+15:30
+So I'm probably laboring that point, but I think, I think, I think it was perhaps worth to show because most people coming in from the outside would never imagine.
+
+15:36
+I never imagined that an institution so fundamental to the UK life and its economy would have pervasive noncompliance.
+
+15:47
+It just didn't occur to me and I couldn't believe it for a long period of time.
+
+15:52
+Yeah.
+
+15:53
+And then if I could bring myself back to some of the other things you've asked.
+
+15:57
+So, So here you've got reference to a strategic enterprise architecture board, right?
+
+16:02
+Yeah.
+
+16:04
+So I I as I'd started to realize that that that there wasn't a history of enterprise architecture being enforced and it was actually a fairly new thing to have any enterprise architecture at the Bank of England.
+
+16:19
+I thought well what what what are the what what are the strategies that I can look at to sort of see maybe there's maybe there'll be a few key elements that I can hook into that will have some regularity to them.
+
+16:33
+And then I I alighted already I wanted to look at the enterprise integration strategy.
+
+16:37
+So I I will come back to that in a moment, but I I, so I looked at this thing like there's a foundational that form strategy.
+
+16:47
+So let's have a look at that and it was approved, it was I think it was reapproved by the strategic enterprise architecture board.
+
+16:53
+So I thought, OK, if this is current, it's got this senior level approval, right, Everybody should be asking themselves when they're developing, am I compliant, am I supporting this strategy, am I on a trend to converge towards this strategy?
+
+17:16
+And you might have gathered from everything I've said, I think very little of that happens.
+
+17:22
+Now to be fair to the guys in FSS, they're not given the time right to to do it.
+
+17:30
+Their their, their time is very much, they're already overcommitted purely on direct program and project deliverables and the way budgets are allocated, there's no budget for strategic delivery at the moment, right The the the budget is given to individual line of business programs and occasionally to a technical upgrade program.
+
+17:55
+So because the because the budget is allocated predominantly at line of business and occasionally at at narrowly defined technical upgrade programs, things that have got a strategic delivery requirement that need to have aligned changes made over a sequence of time taking the organization through viable transition states, right.
+
+18:24
+And here I have a question on budgeting and you would like what percentage of budget will be allocated for testing for its release or a business delivery for a program release what sort of like it's like a 40 or 50 or what's what's your estimation on the percentage of allocation.
+
+18:40
+So, so I I I haven't really looked looked at that that that that is another question that Ian Davis or something like that would would be able to answer.
+
+18:52
+OK.
+
+18:52
+Definitely for you yeah.
+
+18:54
+So I understand the reason for your question I I'm, I'm not the person to definitely also that.
+
+19:03
+What I would say in terms of sort of the meta point about that area is because the the the the bank does not does not create and resource and fund strategy delivery vehicles and it does not allocate responsibility for delivery of strategy to the the line of business and technical upgrade delivery vehicles that it does fund and resource there.
+
+19:41
+There is there is no effective strategy delivery and that then exacerbates the the, the non compliance and the inability to comply even where there is willingness and intention to comply.
+
+20:02
+Right.
+
+20:02
+It becomes, yeah, impractical And people end up swimming upstream for a while trying to do the right thing when the current is dragging them in the direction of just get this particular program's business delivery done.
+
+20:16
+Yeah, yeah.
+
+20:17
+And then they run out of energy because all of us have only got finite energy.
+
+20:21
+And with if the organization is creating a a current of flow that takes you away from doing the right thing they're asking you to do, then you you can't, you can't do it.
+
+20:30
+So, so those that, that to me is the, again a fundamental message I'd like to communicate.
+
+20:36
+And so FSS are to be fair to them, they are surrounded by things that are pushing them away from doing the right thing.
+
+20:46
+Yeah.
+
+20:47
+I had hoped when I'd spoken to some of the more senior people that I could communicate to them that that that they don't have the strategy delivery vehicles and that is a fundamental issue that we won't get meaningful change until it's addressed.
+
+21:01
+And it was in fact one of the main parts of the the CIO when I first got joined the Chapel interviewed me and wanted my experience in this area was looking to do was shift the the bank over to having away from project and program based delivery to to having product based delivery that that that was intended to address this funding model.
+
+21:27
+So that you could actually have funding that was long lasting and teams that were standing teams or around the products and so that you could actually deliver things in a strategic way.
+
+21:40
+But that hasn't happened right.
+
+21:43
+And then he's left.
+
+21:46
+Then his successor was interim, and he then went permanent.
+
+21:52
+But in his tenure, he reinforced rather than transitioned away from object and program delivery, right, which was taking things exactly in the wrong way.
+
+22:09
+Then he left suddenly, like about a month after being confirmed.
+
+22:14
+It's a permanent employee, right?
+
+22:15
+Yeah.
+
+22:17
+And now we've got another interim CIO, right?
+
+22:19
+So you could imagine then that these things, it's a very heavyweight job to take an organization that has never had an effective enterprise architecture nor a strategy delivery vehicle, a strategy delivery capability.
+
+22:36
+And then to A to be CIO and to have the job of of remedying that situation in a constrained funding model in a conservative organization with a small C that is heavily business led rather than having a strong existing IT leadership.
+
+23:02
+So, yeah, I can imagine that that you know that the and there's nothing I'm seeing at the moment that says that that we're going to in in anything like you know, the foreseeable future have any meaningful change in the ability to deliver a strategy.
+
+23:20
+So yeah, so there's this a strategic enterprise architecture board, right.
+
+23:25
+And they will review documents and the documents may well be absolutely great like the enterprise integration strategy that has existed since 2017, right.
+
+23:35
+Yeah.
+
+23:36
+And there are key elements in it that people there's there's nobody who's responsible for delivering, you know, saying when is this done?
+
+23:47
+When is it in, when is it delivered?
+
+23:49
+And the documents are great.
+
+23:50
+They go into lots of detail, yes.
+
+23:54
+But you know, I thought, I thought I could reference these things and make arguments for why people needed to do things.
+
+24:04
+And there's just no, nobody's in a position to actually deliver on it.
+
+24:09
+Yeah, Okay.
+
+24:14
+Well, what else on that?
+
+24:16
+That's.
+
+24:16
+So this, this page has got most of the links into like the enterprise architecture stuff.
+
+24:22
+Yeah.
+
+24:22
+And so I've got a link into an external National Audit Office reports as well.
+
+24:27
+Ohh.
+
+24:28
+And this is something else.
+
+24:29
+There'll be, there'll be various initiatives going back years.
+
+24:34
+They all seem, they all say they're doing the right thing.
+
+24:36
+And I've got great PowerPoints, really nice informative PowerPoints.
+
+24:40
+Great diagrams saying all the right things.
+
+24:43
+And sometimes I've looked at them and found, ohh, this must be the next thing we're about to do.
+
+24:47
+And then I go and look back and find it was from 5 or 10 years ago and it's just sitting there on the shelf metaphorically.
+
+24:56
+And nobody who's actually doing any work is, is thinking about it or perhaps even aware of it.
+
+25:02
+And and I do wonder when when senior management get asked, you know, a new a new executive comes in and ask some questions.
+
+25:10
+What what are they What do they get shown?
+
+25:13
+Do they get shown the detailed reality?
+
+25:15
+Well no.
+
+25:15
+They're in executive so they probably go and get shown some of these documents that that look like things are being done or we're on the path to getting things sorted.
+
+25:25
+So I'm again my message of hopefully helpfully to you is please please don't.
+
+25:31
+These are these in my view are dead ends, right?
+
+25:36
+And and I've tried to focus my efforts in the last year or so to things that that are happening that are without asking too too much of people to to move away from what they're being driven to do by their line of business program delivery commitments.
+
+26:00
+I'm talking here about people in FSS, you know, who do work hard and who are under pressure not to ask them to do much that's deviated from that.
+
+26:10
+Because I know there won't be any support no matter how much it's referenced in the standards or policies or anything like that.
+
+26:16
+But but to look at things that they could do that helps them in the in the short term and helps everybody downstream from their work in the short term.
+
+26:27
+And that's where that's where I've ended back at things like see if I could find it here we go.
+
+26:37
+Let's find some of this to sort of nearly there nearly there.
+
+26:43
+Here we go.
+
+26:44
+It'll be in here.
+
+26:45
+I think things like I showed you before by like you know here here's a model of the markets and banking systems.
+
+26:50
+Key things that a conceptual model where you've got where in in in my diagram here this is this is a a an instance of Swift's SAA.
+
+27:03
+So it's a bit of swift software that the bank configures.
+
+27:06
+Yeah, and links into their fact that there's probably a better diagram I could show you but sorry to jump around.
+
+27:17
+Let's see if I can find this better model.
+
+27:19
+No, Nope.
+
+27:54
+Eventually I'll get there.
+
+27:55
+Ohh, there's a lot of stuff I've done with like trying to help people.
+
+27:59
+Sorry.
+
+27:59
+This is perhaps as I've accidentally come across this.
+
+28:02
+I did a range of things where I was trying to help get a common set of terminology.
+
+28:11
+Because one of the things when we start to look to try and do API testing, most people who heard that term in the Bank of England would say ohh we don't have APIs because they assumed that APIs could only be REST, HTT, REST, HTTP APIs rather than defined schemas transmitted over MQ.
+
+28:38
+Something like that, which can equally be an application programming interface and that's commonly what the bank does or a file transfer that can be a you know, it's not as elegant, but it can be an application programming interface and and almost all testing was user interface testing.
+
+28:54
+So what we alighted on this terminology was that there were user interface tests and system interface tests, UI and SI.
+
+29:02
+And then we started to look at trying to organize a structure to say, well, OK, what tools are we going to use for SI testing and for UI testing.
+
+29:11
+And so for UI testing, we'd used Eggplant, and there's some reasons behind that which we can go into if you like.
+
+29:23
+But Eggplant doesn't support MQ and just by chance because we'd been doing service virtualization and Parasoft service Virtualization tool parts up as the other side of the coin with its API testing tool SOA test, we had an MQ capable of well supported industry standard API testing tool, but we refer to it as System Interface Testing.
+
+29:52
+And then I started to try and draw up some patterns to help people understand some of the concepts and yeah this this brings me so you know if if if if I ask you guys what SUT means I think you'll you know you'll be pretty clear that's not an that's not an ambiguous term but the system under test in the bank the the acronym SUT people use it for eggplant host machines that that access via Citrix rendering of web Uis the majority of the systems under test.
+
+30:41
+So commonly what people would say is I, I, I, I need to go and book out an SUT machine and I spent probably a couple of months people thinking that I was thinking these are these are standalone system under test system test machines that that people can book out and I imagine that there were like 20 of them for each system under test.
+
+31:08
+But no, these are the these are places where you're hosting an instance of of Eggplant.
+
+31:15
+And I tried, I tried to get that terminology changed but it's an up.
+
+31:19
+There's another thing I was swimming upstream because there's just so much of it in Confluence, in the bank and everybody's just adapted to referring to SUT machines when they're.
+
+31:30
+Yeah, they when they contain no system under test at all.
+
+31:33
+Right.
+
+31:33
+Yeah.
+
+31:34
+So but anyway to try and get some standardized terminology, you know, I've got a key to the diagrams.
+
+31:41
+I've got a standard structure for some of the diagrams where we've got system interface tests and user tests.
+
+31:47
+And then we had a a terminology like SFIT, service virtualization and interface testing.
+
+31:55
+So we tried to standardize these things.
+
+31:57
+So originally we wanted to use industry standard tests terminology like API testing, but that was just getting nowhere in the bank.
+
+32:06
+So we sort of said okay, well let's take a step back and try and do something that's at least consistent and might get recognized.
+
+32:12
+So we then went through an effort of trying to get some some some standard ways of referencing these sorts of things.
+
+32:24
+I think we may have had some success, but it's far from complete.
+
+32:27
+And and then we would have also things where we've got tools that have come in like Curiosity's VIP Visual Integration processor, which can do some things like some, you know, you've generated some synthetic data and it will write it to an MQQ.
+
+32:49
+Yeah.
+
+32:50
+And so this is bringing me into another thing that's going wrong at the moment.
+
+32:54
+So I think I mentioned this before, but I, it's probably worth joining it back in together again here.
+
+33:00
+So, So a lot of the time, you might have heard me complaining that FSS are operating a noncompliant way.
+
+33:08
+So they don't use bank standard source control.
+
+33:13
+They perhaps don't do automated deployments as per bank standards, but in the area of the enterprise integration platform, ace deployments of flows, the new new new technologies that are being built, it's much more compliant.
+
+33:31
+And so even on the ISO program where where that new technology's being used, they're doing automated deployments and they're also updated their standards for securing MQ so that it's you know SSL secured to a standard of cipher that's meets the bank's modern standards, that's great.
+
+33:52
+So so there you've got regular automated deployments through inter test environments of MQ sort of ACE flows and their associated MQ integrations And then the Curiosity VIP simulator that's that's doing some some injection enterprise SIM in into an MQQ and it might be on it.
+
+34:23
+It's likely to be on an integrated but it's yeah and like Mqs who will be managing all this MQ and Eggplant software on the hosted missions.
+
+34:31
+Are there any separate tooling team who will be helping the testing persons to organize these?
+
+34:38
+So, so there's a, there's a tools team for all of the testing tools.
+
+34:45
+Yeah, in that.
+
+34:46
+So there's a DAP testing tool team and that would be separate from, to my knowledge, any decisions about testing tools in FSS in terms of MQ, that's well and and were you asking in terms of testing of MQ?
+
+35:04
+Yep.
+
+35:05
+Yeah.
+
+35:05
+So yeah, this is sort of stuff that's just happened by accident, right?
+
+35:10
+So, so the reason that there wasn't a planned tool to have testing of MQ is just because people hadn't thought about it in depth.
+
+35:19
+I don't think it was especially modern in the how it worked.
+
+35:24
+You might remember from previously that when I when I arrived I one of the things I found in the in the integration strategy was that there were a standard set of patterns for integrations that were going to be supported by the bank.
+
+35:36
+And you know it's it's it's it's in it's in one of the links I think in here that integration sandbox.
+
+35:52
+So I I I'd presented A rationale for why since the bank is going to have a standard set of integrations.
+
+36:04
+This, this is I've extracted from that that 2017 integration strategy with these are the patterns.
+
+36:11
+Yeah yeah.
+
+36:12
+So they here here are all of the patterns.
+
+36:14
+So I thought, well, OK, So what what that should have is an integration sandbox that has an archetype of each one of these patterns.
+
+36:25
+So that anytime we're considering a tool or in fact developing a test or a virtual service or anything like that that might need to integrate through one of these standard integration patterns, we should be able to test it all right?
+
+36:40
+Independent of having a test environment itself that will be used for other purposes.
+
+36:44
+We should have this.
+
+36:45
+So.
+
+36:46
+But the only thing we've got is this top one.
+
+36:48
+We did eventually get that, which is a pair of Mqqs.
+
+36:51
+Yeah, yeah.
+
+36:54
+And you know I could I'm I'm darting about a bit but hopefully this gives you a bit of a flavor you know.
+
+37:03
+Yeah.
+
+37:05
+Yeah.
+
+37:06
+You have experience in the SOPI smart beer automation.
+
+37:08
+Yeah.
+
+37:09
+Yeah.
+
+37:09
+So.
+
+37:10
+So the part the reason I'm going into this is we shouldn't.
+
+37:12
+Well so I don't.
+
+37:16
+I, I, I, yeah, I I So here I'm I'm gonna describe a few of the the sort of the suboptimal things that we're doing but as I go into go into this.
+
+37:26
+But that doesn't use SOAP UI right?
+
+37:29
+We don't use it for our testing.
+
+37:31
+It's not not really appropriate right?
+
+37:36
+What I do is I just use the Hermes JMS as a queue browser, right?
+
+37:41
+It's just a convenient queue browser, and the reason that I found it convenient is because the bank has allowed its use, but actually it's not compliant with bank standards.
+
+37:54
+But where automated testing is done by FSS, it's done with SOAP UI.
+
+37:59
+Yeah, So anyway, so here you know we've got a request queue that's empty.
+
+38:04
+All the requests have been processed off it and and yeah and a response queue.
+
+38:08
+So it it it it's Dap's owned pair of queues so nobody else outside of DAP is gonna use these and and I've used it to to run a a a test that I'm building in Parasoft before we're ready to use it on a real test environment.
+
+38:24
+Yeah, yeah.
+
+38:25
+So all of that sort of stuff and we've got we've got SV assets running on a Parasoft virtualized server that that can answer requests for us.
+
+38:36
+So we can start the testing.
+
+38:38
+So it it gives us a sandbox that we can start to prove our tools in prove that we can connect to the right level of SSL.
+
+38:46
+But because Curiosity VIP can't, I'm bringing bringing myself back to that and that how the.
+
+38:53
+Yeah, how the J, Hermes JMS files are shared are they shared in a centralized location or a repository or is it independent for each tester.
+
+39:01
+Well the the, the, I think nobody really nobody outside me has really used it right Okay.
+
+39:10
+I'm encouraging some of some of your cognizant colleagues that I work with now to start to use it.
+
+39:16
+But it was only because I'd got closer to the developers that I actually started to find out.
+
+39:22
+So what happened was as there was a there was a somebody worked in FSS in integration services who'd got the job finally when I'd convinced them that that they should build at least this at and we got these queues that I was just showing you.
+
+39:39
+Yeah, there was a developer who was given over the job of producing those queues and I got on quite well with him and then he's he'd been trying.
+
+39:47
+He'd was very familiar with using SOAP UI and so he'd encouraged people in.
+
+39:53
+There was very little use before he joined his I my understanding, and he'd encouraged his colleagues in FSS to use it.
+
+40:00
+And So what he then did, at a point taking a bit of a risk himself, was he shared with me his configuration, which was huge.
+
+40:08
+I've still got it, but I I didn't want to show it to lots of other people of all the different queues.
+
+40:14
+So.
+
+40:14
+So I started to have a look around for finding what queues existed, because because FSS don't tell us what queues exist, you have to keep going and asking a developer, right?
+
+40:25
+There's no observability, so the testers are not getting access to MQ.
+
+40:29
+Actually MQ Browser.
+
+40:31
+So there's a web interface for MQ and yeah, so, so, so, so this same guy told me about, yeah, the the banks instance of MQ Console, right?
+
+40:40
+Yeah, MQ Console, yes.
+
+40:42
+Yeah.
+
+40:43
+So I thought, well, I'm used to using MQ Explorer, but this is MQ Explorer for a browser as you know, right?
+
+40:48
+Yeah, yeah, and but I haven't got permissions right?
+
+40:51
+So I can go and look at if I go back a stage, I can go and look at the queue managers.
+
+40:56
+Some of the queue managers, there's different ones for different levels, right?
+
+40:59
+But so I can go and look at a queue manager, but I haven't got any permissions to go and look at the queues.
+
+41:03
+So I put together a Confluence page that that made a request and even linked to an article about how you can give read only access right to this information.
+
+41:13
+But FSS don't want to do it.
+
+41:15
+They don't want to give it to us.
+
+41:16
+They don't want to give us the ability to look at that, just like they don't want to give us the ability to go and look at reports on the beat business transaction monitoring message snapshot.
+
+41:26
+Yes, even if you can implement a strategy like passing the information to the dummy queue and the testers can access the dummy queue and retry the data from dummy queue, yeah, so streaming queues.
+
+41:36
+I've recommended these streaming queues.
+
+41:37
+FSS are are only gonna use streaming queues themselves, right?
+
+41:43
+So we've been been round around this and and FSS refuse, right.
+
+41:48
+So in some cases they've got reasons to control the use of the you can only have one streaming queue of a real queue and they intend to use it to feed their snapshot creation for record and replay and business transaction monitoring and that's fine and good.
+
+42:04
+I I I agree with that but they should give it, they should then give us access to the read only access to the databases that store those snapshots right.
+
+42:15
+And then everybody's happy, but they won't do that.
+
+42:18
+Um, so that was that's still being pursued.
+
+42:21
+But um, so but you know, I I I'd asked about this.
+
+42:26
+This I think is is no harm to FSS.
+
+42:29
+Oh, and the other thing is I did the, I traced this through all the developer tools and quite as you'd expect, this is giving you information on the system queues.
+
+42:40
+Uh, I think it'll also give you information on the application queues as well, but it doesn't.
+
+42:46
+It does that by using IBM's I a web server Mq's REST API calls.
+
+42:53
+Right?
+
+42:54
+So yeah, and so I traced that and I gave some evidence that and I said, well OK, I'll find it on here.
+
+43:04
+So then I said, well OK, here's something else we could do is since since MQ and Oracle, two of our key things that we need testing observability on or test interaction ability on, and both of them have REST API support.
+
+43:24
+If that was enabled on both of them then we could use a single test tool, eggplant, to interact with UI and both types of system interfaces.
+
+43:38
+All all you know all that one tool and so I made that proposal and I think somewhere in here so I I then I traced through and you can you can see REST API calls being made by the MQ console right.
+
+43:57
+And you can see you know there's there's obviously a REST API call so all all of that's there is an option but but FSS I don't think there's many people in FSS you've you've got the sort of background that could allow them to see how it would just be helpful to themselves and that to be able to consider some of these things you don't they don't have to do all of it.
+
+44:19
+Any one of these options would be a really good thing.
+
+44:22
+Ohh.
+
+44:22
+And then in here I'd put in you know the JDBC ODBC access to Oracle and the HP load runner.
+
+44:29
+Have you ever explored the HP Load Runner which will be easily integrable with Web Q and UI testing and up testing.
+
+44:37
+So there are there is a license for Load Runner here but it's not used too much is my understanding.
+
+44:45
+So in in large part I don't think we've got I don't think we've licensed the Citrix part and because much of the UI is only exposed via Citrix yeah even though so his I'll we'll explore this bit of the rabbit whole bit then come back and then I'll finish off on what I was doing before.
+
+45:10
+So so you I, I I've had some need to want to do bulk data entry and in terms of NFT use, that's been done on the ISO program Jmeter has been used and Jmeter through MQ injection.
+
+45:33
+And I'd helped the guys who'd done that get configured to do that and sort out all of this cipher settings and stuff like that.
+
+45:44
+And I I knew that obviously that jaymeter can do HTTP recording and you know for web for for for web Uis on the systems.
+
+45:56
+And most of our systems have got web Uis, yeah, and T24.
+
+46:00
+We've got access from our own laptops to its web UI.
+
+46:04
+And I wanted to do a recording using J meters, local proxy.
+
+46:10
+And Long story short, it took took probably two or three months.
+
+46:14
+But even though others who tried it before hadn't found a way, I finally found somebody who knew a way of getting it done according to even within bank policy.
+
+46:22
+So we got a an edge add in that will allow you to do proxy management and you've got a GPO modification that allows that to work.
+
+46:31
+So we've I've I've got I've got that that resolved and that's documented but in my in my investigations to finding out how to get local proxies allowed various other things I came across So the in in production especially I think it accelerated during COVID and people working remotely rather than being on bank premises.
+
+47:02
+Access to the systems is through Citrix with a Citrix rendered copy of the screen and for valid reasons where you performance test not just the the behavior of the systems on their infrastructure themselves but also the the Citrix infrastructure you you they route their their loading through Citrix right and then but haven't licensed the ability to drive load through Citrix so so then you end up doing just MQ injection and not doing anything through the UI.
+
+47:46
+So you end up with these strange sorts of things, right?
+
+47:48
+So it it kind of like undermines the overall objective.
+
+47:51
+So it's it's now the insistence is you can only access these systems both functionally and nonfunctionally through Citrix, with one exception of T20 four.
+
+48:03
+And then all sorts of unintended consequences make make that everything is then unrepresentative.
+
+48:09
+And the fact that it's insisted that you can only do functional testing through the Citrix ones, which is why we end up with these things that people refer to as Suts that are hosting eggplant but aren't actually a system under test, right.
+
+48:23
+They become them a real constraint because it's really slow, Eggplant's really slow and has some unreliability as it's recognizing through sight of the rendered screens.
+
+48:34
+And we, we slow down functional testing unnecessarily because that functional testing has no real need to go through Citrix, right.
+
+48:43
+And we could make that really fast and we could make it integrated orchestration through using Parasoft, right.
+
+48:49
+So you know, we've got this, we've got this sort of accident of what tooling we've ended up getting that's really good for MQ injection which is Parasoft, which I'm just running up at the moment.
+
+49:05
+Yeah.
+
+49:05
+And I've run tests into T24 and captured the tests.
+
+49:09
+You know, I, I, I actually, while that's starting up, I'll come back to this, right.
+
+49:15
+So.
+
+49:15
+So I started to find almost by accident lists of all the queues that existed.
+
+49:20
+Right.
+
+49:21
+Because nobody would tell me.
+
+49:22
+I would ask what queues existed, right.
+
+49:25
+And and and and and no, nobody would tell me, right.
+
+49:34
+I'll go that.
+
+49:35
+But then I started to find what queues because I could go and explore them and browse them right?
+
+49:39
+And then I I searched through some documentation and I found that there was a a standard a common error handler and common error queue.
+
+49:52
+I probably can't find it might come off here.
+
+49:59
+Actually no I I I I won't I won't distract too much.
+
+50:01
+But basically I found the documentation for that and one day the system that reads all the messages off that common error handler and and sends out various different emails so it it it takes them off the queue sends out various emails to alert different areas.
+
+50:23
+That stopped working.
+
+50:24
+So so the the errors were starting to accumulate on the error queue.
+
+50:29
+You know this was a brilliant a brilliant mind of information because I want finally this could partly anybody was doing any negative testing, right?
+
+50:36
+Because anything where that terminated its processing at the point of having gone down that path of writing to the common error queue didn't have a UI representation of it other than maybe an e-mail turning up on somebody's mail inbox.
+
+50:54
+Nobody really did the testing on that.
+
+50:56
+But all of a sudden we could do automated testing on that oh I've worked out but no but nobody would nobody would give us access to that queue and then where we found actually it was getting.
+
+51:07
+Also you would find sometimes they they got written to the BTM database snapshots snapshot database so so you could find it from there.
+
+51:16
+So I was starting to find all this information that that could be really useful and but but nobody would in FSS even despite formal requests would give me any access to have to have this.
+
+51:29
+So I I I continued to use Hermes, Hermes, JMS to just sort of browse some of the queues that and find what was on there right.
+
+51:40
+So yeah, where was I gonna show you?
+
+51:41
+Right.
+
+51:42
+So so anyway, so we we then found that there were sometimes where I'm sorry, this may take me a while to find.
+
+51:56
+So is it worth trying.
+
+51:57
+So in the enterprise integration program after I could I worked on that for the first year, I bet was here 50% of the time.
+
+52:04
+So I've been saying to them, right, you need to have the service definition so they could be documented.
+
+52:08
+They've got be not documented, they've got to be in source control.
+
+52:11
+But in the end they documented them in Confluence, right and they would start to then add in links to their unit tests.
+
+52:21
+I thought it was brilliant right?
+
+52:23
+And the unit tests were being done in SOAP UI and because because the integration program inherently doesn't have a line of business UI, it's it's doing MQ and MQMFT and things like that.
+
+52:34
+You know the the the unit tests or more component tests actually were were done in in SOAP UI and so in those areas it started to become possible.
+
+52:50
+You'll see like there was Mt to MX.
+
+52:54
+These are these are some flows to convert the queues that are connected to ACE flows that were converting empty message formats to MX message formats.
+
+53:05
+And because the discipline of doing component tests have been followed, I could then produce some automated tests that that leverage that and then you know start to hook that into into Parasoft and we could do you know data all all the sophisticated add-ons of data-driven information.
+
+53:34
+And then things like, I don't know if it will be in this test, Yeah, capture baselines, you know, automatically captured off a data-driven table all of the responses.
+
+53:48
+And then, you know, ignore certain differences.
+
+53:50
+If we wanted to, you know, certain dates that we're going to change each run and and weren't a problem and you know, view the traffic and record all of the different test runs and then then be told what the differences were.
+
+54:04
+Yeah, yeah, all all of that sort of stuff that that without having to do the sort of harder work that you'd have to do in SOAP UI.
+
+54:12
+And then I started to show some of this to some of the developers and they kind of kind of quite liked it as well, even though they'd, some of them got familiar with SOAP UI.
+
+54:23
+Yeah.
+
+54:23
+And then then the the one I just started to be able to use this to help the people because look this was being done effectively semi manually or largely manually with just a tool to do this VIP SIM doing the injection and then people manually or and then then when 1 by 1 capturing the outputs and then manually examining them.
+
+54:48
+So I automated some of that and then then the environment got got connected up so that the downstream system was just pulling the messages off.
+
+54:57
+So this became all redundant, right.
+
+55:01
+So it it, you know, we started to do something.
+
+55:06
+But until we solve the problem of how can we share an integrated or partially integrated environment with these sorts of tests and also other tests where their downstream systems are pulling the queues, we should come back to the, the, the business transaction monitoring snapshots.
+
+55:23
+Yeah, that would be the answer to that.
+
+55:26
+I'm looking at the time.
+
+55:28
+I'm OK to carry on a bit if if you are.
+
+55:32
+Yeah.
+
+55:32
+Yeah.
+
+55:32
+I'm OK with as.
+
+55:33
+As long as you you have the time.
+
+55:35
+Yeah.
+
+55:36
+And we can have to make and go ahead and yeah, yeah, I, I, I do need to go in maybe 10 minutes or something.
+
+55:43
+Sure.
+
+55:43
+Definitely.
+
+55:44
+Yeah.
+
+55:44
+Yeah.
+
+55:45
+Yeah.
+
+55:45
+So what was was there So I think I started I started to you know go back and join up these rabbit holes that that I was going down but but there are very few people well there were very few people apart from me who who who'd been who'd got the time with the developers and had been through these exploratory things.
+
+56:10
+And and because I created initiatives like the DAP integration sandbox that then got me certain contacts.
+
+56:16
+And because I've worked with MQ over years and because I worked with like well the the the the guys who I worked with at Lloyds Banking Group who were putting in API Connect for the internal and external gateways and where I was doing some design work on how that would be utilized.
+
+56:34
+And I've worked with message broker and things before.
+
+56:37
+I kind of I had a background that allowed me to ask the right questions even though I'm not a hands on coder in these sorts of things.
+
+56:43
+I'd right.
+
+56:43
+Yeah yeah and so I'd I'd I'd basically been able to follow these chains and and like nobody else in in DAP had that sort of background.
+
+56:53
+As it happens I've also you know your your some of your colleagues are that I'm effectively handing over to of I've got very strong backgrounds and are very skilled and under able to do this this you know similar sorts of things but but but very few people that have the combination of the background and the and and also the time to go and work on these sorts of things to build up this knowledge.
+
+57:18
+So.
+
+57:19
+So people like Arupa, I think you might know or or or or Drew.
+
+57:23
+Yeah.
+
+57:24
+They they they've got hands.
+
+57:26
+They've, they've got, they've got like I've been describing these delivery objectives.
+
+57:30
+So they don't have the amount of time to spare to, to build up this knowledge as as me.
+
+57:35
+So.
+
+57:36
+So it was there in the case of like, well, having realized that you know you you can't change the world and everybody else is having you know you're asking them to swim upstream again.
+
+57:45
+What can you do that's not swimming upstream that is within their grasp and is on the in the in the way that the currents flowing at the moment that could give you give you the benefits.
+
+57:56
+So that's why I come back and focus on if if the, if the guys could could formalize.
+
+58:07
+And you know I'm trying to find that that diagram that I keep using, you know, with the conceptual diagram.
+
+58:12
+Yeah, before wrapping up just to share the links.
+
+58:17
+If you are able to export and do it or share it to the mic.
+
+58:20
+He might be able to share one document.
+
+58:22
+If there are any internal links, we will refer the document.
+
+58:26
+If any specific internal link document is required, we'll shout on that.
+
+58:30
+So Mike.
+
+58:31
+Yeah.
+
+58:32
+Will help us.
+
+58:32
+Yeah.
+
+58:34
+Yeah.
+
+58:34
+So Mike, are you on the call?
+
+58:37
+I, I, I because I've been so much, you know, in my flow talking.
+
+58:40
+I haven't and I haven't seen who's joined the call.
+
+58:43
+Mike joined and he dropped off.
+
+58:45
+Yeah.
+
+58:45
+OK Yeah.
+
+58:47
+So you you can see I did a a few test PDF generations.
+
+58:51
+Yeah.
+
+58:52
+Right.
+
+58:53
+And I do I have a question here.
+
+58:59
+Yeah, Yeah, please do.
+
+59:00
+Yeah.
+
+59:00
+Yeah.
+
+59:01
+So I'm covering the release engineering, release management and the STLC program delivery part.
+
+59:07
+So do you have any knowledge to share on that front in the release management and the software deliver lifecycle, like the program delivery daytoday lifestyle of a developer, right.
+
+59:19
+So let's see if I can find a release note, right?
+
+59:23
+Yeah, that's good.
+
+59:26
+So there is, there is a, A, A, a, A unit, an area titled Enterprise Release Management.
+
+59:36
+So actually but I think as I said before, I I I don't recognize what they do as enterprise release management.
+
+59:50
+There's nothing enterprise about it.
+
+59:52
+It's they're trying their best to work.
+
+59:56
+You know if you imagine everything else I've described that that that there isn't the base discipline you know.
+
+1:00:03
+So whether it's ideal or or anything else in terms of config management to allow them to to to do things.
+
+1:00:09
+So so you you you would commonly find something like this, which would have it's described as a detailed release notification, right?
+
+1:00:23
+And so here it's it's great.
+
+1:00:25
+So here you've got like T24 that you've heard me reference number of times and there's no T24 version, right.
+
+1:00:38
+So how do I know is is yeah, there's there's a, there's a a text description of what's changing.
+
+1:00:46
+So where to check this bug?
+
+1:00:48
+There's any portal or a service portal available?
+
+1:00:50
+Yeah.
+
+1:00:50
+Under there's no hyperlink, right?
+
+1:00:54
+Right.
+
+1:00:54
+I know this is hyperlinked.
+
+1:00:56
+See this is there's nothing detailed about this.
+
+1:00:58
+There's no cross reference to the right.
+
+1:01:02
+Now to be fair to the guys who are having to do this, I I they're having to deal with legacy standards.
+
+1:01:09
+So the way you identify the version effectively is by the CRQ, the change request, right?
+
+1:01:15
+But that CRQ number is a sequence in a list that contains every change across every different system.
+
+1:01:24
+So you can't actually read anything into how that relates to another version of T24.
+
+1:01:31
+There's nothing to say.
+
+1:01:32
+I can't go to any environment and and go and say that you know for instance there's there's there's no manifest files in the delivery that say right here here's here's the semantic version of every identifiable subcomponent and the semantic version of the totality of what's delivered, right.
+
+1:01:52
+That I can then go and inquire on at a central reference point in my environment management tool Lutora.
+
+1:01:57
+Right.
+
+1:01:58
+Yeah.
+
+1:01:59
+So that could be done, right?
+
+1:02:03
+But because.
+
+1:02:04
+But it requires that the unit of deployment follows the disciplines.
+
+1:02:08
+So given what you've described as your your area, which I'm sure you're very skilled in right, Helping the guys actually produce a deployment that's self describing that then can feed into, you know, perhaps has a manifest of all of the versioned component parts where it linked into source code, then, then everything can, yeah, follow on afterwards, yeah.
+
+1:02:31
+And then they can have a hyperlink to to the to to to effectively the they're moving to GitHub.
+
+1:02:40
+But but the ADO repository that can have the documentation to the that version that says what's happening, right.
+
+1:02:47
+And then everybody can know and they can know what they're testing, right?
+
+1:02:50
+And they can do they can diff things and see what's changed, right.
+
+1:02:53
+But but this is something that's called a detailed release notification that in my view is nothing of the sort.
+
+1:03:01
+I probably need to bring myself to a halt there, but yes.
+
+1:03:08
+So I I say these things trying to be helpful.
+
+1:03:10
+I don't want to be critical.
+
+1:03:11
+I try to be.
+
+1:03:11
+Yeah.
+
+1:03:12
+Yeah.
+
+1:03:12
+No, no, no, no.
+
+1:03:13
+Even Even I I thought that.
+
+1:03:15
+Yeah.
+
+1:03:15
+Yeah.
+
+1:03:16
+You can stop the recording.
+
+1:03:17
+Kiran.
+
+1:03:18
+I just.
+
+1:03:18
+I want to have some few points with Andrew.
