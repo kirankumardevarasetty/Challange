@@ -1,0 +1,26 @@
+Cloud KMS (Key Management Service) is a service offered by GCP that allows you to securely manage encryption keys. It provides a centralized repository for storing, generating, rotating, and using cryptographic keys.
+
+Key Rings:
+
+A key ring is a logical grouping of keys within Cloud KMS.
+It acts as a container for organizing and managing related keys.
+You can have multiple key rings within a project.
+Key rings help with key management and access control.
+Keys:
+
+Keys are the actual cryptographic material used for encryption and decryption operations.
+Cloud KMS supports symmetric and asymmetric keys.
+You can create, import, and manage keys within key rings.
+Keys can be used for various purposes like encrypting data at rest, protecting secrets, and signing data.
+How Key Rings and Keys Work Together:
+
+You create a key ring within your GCP project.
+Within the key ring, you create and manage individual keys.
+You can grant permissions on key rings and keys to control who can access and use them.
+When you need to perform a cryptographic operation, you reference the specific key within the key ring.
+Benefits of Using Cloud KMS:
+
+Centralized Key Management: Store and manage keys in a secure and accessible location.
+Enhanced Security: Protect keys with hardware security modules (HSMs) for added security.
+Compliance: Meet compliance requirements by using Cloud KMS to manage encryption keys.
+Integration: Easily integrate with other GCP services like Compute Engine, Cloud Storage, and BigQuery.
